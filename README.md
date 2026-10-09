@@ -1,5 +1,8 @@
 # MMM-WeatherdotcomChart
 
+> [!WARNING]
+> **AI disclaimer:** This fork of [MMM-WeatherChart](https://github.com/mtatsuma/MMM-WeatherChart) was made with the assistance of [Claude](https://www.anthropic.com/claude), an AI model by Anthropic, working with bl8demast3r. It is covered by automated tests and was tried on a running MagicMirror², but AI-generated code can contain mistakes. Please review the code, use it with caution and test it thoroughly in your own setup.
+
 A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that charts hourly and daily weather forecasts using [Chart.js](https://www.chartjs.org/). It's a fork of [MMM-WeatherChart](https://github.com/mtatsuma/MMM-WeatherChart) by Tatsuma Matsuki that displays the weather data shared by [MMM-Weatherdotcom](https://github.com/bl8demast3r/MMM-Weatherdotcom): [Weather.com](https://weather.com/) data, with [NOAA](https://www.weather.gov/documentation/services-web-api) as a backup.
 
 Daily forecast (high and low temperature, weather icons on top, precipitation on the bottom):
@@ -135,6 +138,12 @@ Weather icons come from the icon sets bundled with [MMM-Weatherdotcom](https://g
 npm install
 npm test
 ```
+
+## Contributors
+
+- **[bl8demast3r](https://github.com/bl8demast3r)**: maintainer
+- **[Claude](https://www.anthropic.com/claude)** (AI model by Anthropic): made the changes in this fork, and wrote its tests and documentation, with bl8demast3r
+- **[Tatsuma Matsuki](https://github.com/mtatsuma)**: author of the original [MMM-WeatherChart](https://github.com/mtatsuma/MMM-WeatherChart)
 
 ## Attributions
 
