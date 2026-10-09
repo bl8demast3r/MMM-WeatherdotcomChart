@@ -1,0 +1,5 @@
+/* Highlights the source when MMM-Weatherdotcom has fallen back to NOAA or
+   is showing old data because every source failed */
+.MMM-WeatherdotcomChart .source-fallback {
+  color: #f5b041;
+}

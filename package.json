@@ -1,0 +1,22 @@
+{
+  "name": "MMM-WeatherdotcomChart",
+  "version": "1.0.0",
+  "description": "MagicMirror² module that charts the weather data shared by MMM-Weatherdotcom (fork of MMM-WeatherChart)",
+  "main": "MMM-WeatherdotcomChart.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "weather",
+    "chart",
+    "Weather.com",
+    "NOAA"
+  ],
+  "author": "bl8demast3r",
+  "license": "MIT",
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
+}
